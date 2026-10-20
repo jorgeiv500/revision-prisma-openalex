@@ -1,0 +1,11 @@
+{
+  "identificados": 200,
+  "duplicados": 1,
+  "cribados": 199,
+  "excluidos_cribado": 48,
+  "no_recuperados": 0,
+  "evaluados": 151,
+  "excluidos_texto": 0,
+  "incluidos": 151,
+  "borrador": true
+}
