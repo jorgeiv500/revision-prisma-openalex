@@ -1,0 +1,28 @@
+# Protocolo de la revisión. Edítelo antes de buscar y regístrelo (OSF o PROSPERO) si va a publicar.
+titulo: "Aprendizaje automático para pronosticar la demanda de carga de vehículos eléctricos: revisión sistemática"
+pregunta: >
+  ¿Qué métodos de aprendizaje automático se usan para pronosticar la demanda de carga
+  de vehículos eléctricos, con qué datos y con qué desempeño reportado?
+
+# Búsqueda en OpenAlex (título y resumen). Admite AND, OR, NOT en mayúsculas y comillas para frases.
+consulta: '("electric vehicle" OR "electric vehicles" OR EV) AND charging AND (forecasting OR prediction) AND ("machine learning" OR "deep learning" OR "neural network")'
+anio_desde: 2018
+anio_hasta: 2026
+tipos: [article, review]          # tipos de OpenAlex
+idiomas: [en, es]
+max_registros: 2000               # tope de seguridad
+
+# Cribado preliminar por reglas (título + resumen). La decisión final es SIEMPRE humana.
+criterios_inclusion:
+  - forecast
+  - predict
+  - demand
+  - load
+criterios_exclusion:            # si aparece alguno, se marca para revisión como posible exclusión
+  - battery degradation
+  - state of charge estimation
+  - autonomous driving
+  - review of reviews
+
+# Revisores (iniciales). El cribado debe hacerlo al menos una persona; idealmente dos en paralelo.
+revisores: [JIRG, R2]

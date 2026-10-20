@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "openalex": {
+      "command": "python",
+      "args": ["mcp_openalex/server.py"],
+      "env": { "OPENALEX_EMAIL": "su_correo@utadeo.edu.co", "OPENALEX_API_KEY": "" }
+    }
+  }
+}
