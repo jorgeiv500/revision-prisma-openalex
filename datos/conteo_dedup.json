@@ -1,0 +1,8 @@
+{
+  "identificados": 200,
+  "por_fuente": {
+    "OpenAlex": 200
+  },
+  "duplicados": 1,
+  "unicos": 199
+}
